@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npm run build:*)",
-      "Bash(del \"c:\\\\Users\\\\amitr\\\\Amit-Projects\\\\Share-A-Fact\\\\src\\\\types.ts\")"
+      "Bash(del \"c:\\\\Users\\\\amitr\\\\Amit-Projects\\\\Share-A-Fact\\\\src\\\\types.ts\")",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
